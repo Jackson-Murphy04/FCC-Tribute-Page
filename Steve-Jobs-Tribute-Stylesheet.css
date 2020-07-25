@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+	color: black;
+	margin: 0;
+	background-color: #e0ded7;
+	font-size: 17px;
+}
+
+h1 {
+	font-size: 55px; 
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+ul {
+	max-width: 700px;
+	margin: 0 auto 50px auto;
+	text-align: left;
+	line-height: 1.6;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+#quote-about {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 25px;
+}
+
