@@ -1,11 +1,13 @@
 <!-- Add DOCTYPE for html -->
 <!DOCTYPE html>
-<!-- Add html tags -->
-<html>
+<!-- Add html tags and specify language-->
+<html lang='en'>
 	<!-- contain all elements withing the main tags -->
 	<main id='main'>
+		<!-- create head section to put page title and link to css stylesheet -->
 		<head>
 			<title>Steve Jobs Tribute Page</title>
+			<link rel='stylesheet' type='text/css' href='Steve-Jobs-Tribute-Stylesheet.css'>
 		</head>
 		<body>
 			<!-- Add script link for free code academy tests -->
@@ -13,17 +15,19 @@
 				<script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
 			</div>
 			<!-- add title for page with quote -->
-			<div id='title-div'>
-			<h1 id='title'>Steve Jobs</h1>
-			<p>- "Innovation distinguishes between a leader and a follower"</p>
-			</div>
+			<header id='title-div'>
+				<h1 id='title'>Steve Jobs</h1>
+				<p>- "Innovation distinguishes between a leader and a follower"</p>
+			</header>
 			<!-- add image with capton -->
-			<div id='img-div'>
+			<main>
+			<figure id='img-div'>
 				<img id='image' src='https://image.cnbcfm.com/api/v1/image/104708210-GettyImages-175852238-steve-jobs.jpg?v=1532563762&w=740&h=416' alt='A iconic image of Steve Jobs annocing the first IPhone'>
-				<p id='img-caption'>Steve Jobs is on stage at an apple confrence and has just unvield the first iphone. This product will go on to change the world.</p>
-			</div>
+				<figcaption id='img-caption'>Steve Jobs is on stage at an apple confrence and has just unvield the first iphone. This product will go on to change the world.</figcaption>
+			</figure>
 			<!-- give timeline info on important events from steve jobs life -->
-			<div id='tribute-info'>
+			<article id='tribute-info'>
+				<h3>Here is a timeline of important events in his life</h3>
 				<ul>
 					<li><strong>24 Feb 1955</strong> - Steven Paul was born in San Francisco, and is quickly adopted by Paul and Clara Jobs.</li>
 					<li><strong>1960</strong> - The Jobs family moves to the famous Silicon Valley.</li>
@@ -50,25 +54,25 @@
 					<li><strong>24 Aug 2011</strong> - Steve Jobs resigns as CEO of Apple, with the words 'I have always said if there ever came a day when I could no longer meet my duties and expectations as Apple's CEO, I would be the first to let you know. Unfortunately, that day has come.' Tim Cook becomes Apple CEO.</li>
 					<li><strong>5 Oct 2011</strong> - Steve Jobs dies at home, surrounded by his family.</li>
 				</ul>
-			</div>
+			</article>
 			<!-- give quote about steve jobs -->
-			<div>
-				<h2>"I'm inspired by Steve Jobs." -Kanye West</h2>
-			</div>
+			<section id='quote-about'>
+				<p><q><strong>I'm inspired by Steve Jobs.</strong></q> -Kanye West</p>
+			</section>
 			<!-- add link for additional information if wanted -->
-			<div id='additional info links'>
-				<h3>If you are facinated by this man I suggest you read more
-					<a id='tribute-link' href='https://en.wikipedia.org/wiki/Steve_Jobs' target='_blank'>here.</a>
-				</h3>
-				<h3>For a more complete timeline click
-					<a id='timeline-link' href='https://allaboutstevejobs.com/bio/timeline'>here.</a>
-				</h3>
-			</div>
+			<footer id='additional info links'>
+				<h4>If you are facinated by this man I suggest you read more
+					<a id='tribute-link' href='https://en.wikipedia.org/wiki/Steve_Jobs' target='_blank' title='Go to Steve Jobs Wikipedia'>here.</a>
+				</h4>
+				<h4>For a more complete timeline
+					<a id='timeline-link' href='https://allaboutstevejobs.com/bio/timeline' target='_blank' title='Go to timeline of Steve Jobs'>click here.</a>
+				</h4>
+			</footer>
 		</body>
 	</main>
 </html>
 
-<!-- need to add tags and improve samantics and accesibility -->
-<!-- Also need to add css code -->
+
+
 
 
